@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.google.cloud.pubsub.client.demos.appengine.IntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.101 sec <<< FAILURE! - in com.google.cloud.pubsub.client.demos.appengine.IntegrationTest
+testTopPage(com.google.cloud.pubsub.client.demos.appengine.IntegrationTest)  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:277)
+	at com.google.cloud.pubsub.client.demos.appengine.IntegrationTest.hasCredentials(IntegrationTest.java:49)
+	at com.google.cloud.pubsub.client.demos.appengine.IntegrationTest.setUp(IntegrationTest.java:58)
+
+testSendMessage(com.google.cloud.pubsub.client.demos.appengine.IntegrationTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:277)
+	at com.google.cloud.pubsub.client.demos.appengine.IntegrationTest.hasCredentials(IntegrationTest.java:49)
+	at com.google.cloud.pubsub.client.demos.appengine.IntegrationTest.setUp(IntegrationTest.java:58)
+
+testPushHandlerIsProtected(com.google.cloud.pubsub.client.demos.appengine.IntegrationTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:277)
+	at com.google.cloud.pubsub.client.demos.appengine.IntegrationTest.hasCredentials(IntegrationTest.java:49)
+	at com.google.cloud.pubsub.client.demos.appengine.IntegrationTest.setUp(IntegrationTest.java:58)
+
